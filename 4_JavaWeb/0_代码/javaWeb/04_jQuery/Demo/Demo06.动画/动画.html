@@ -23,19 +23,30 @@
 		fadeToggle([speed,[eas],[fn]])
 		*/
 		$(function(){
-			//显示   show()
-			$("#btn1").click(function(){
-				$("#div1").show(1000);
-			});		
+			// var abc = function(){
+			// 	$("#div1").toggle(1000,abc);
+			// };
+			// //显示   show()
+			// $("#btn1").click(abc);
+
+			//显示 show()
+			$("#btn1").click(function () {
+				$("#div1").show();
+			})
+
+
+
+
 			//隐藏  hide()
 			$("#btn2").click(function(){
 				$("#div1").hide(1000);
-			});	
+			});
+
 			//切换   toggle()
 			$("#btn3").click(function(){
 				$("#div1").toggle(1000);
-			});	
-			
+			});
+
 			
 			//淡入   fadeIn()
 			$("#btn4").click(function(){
